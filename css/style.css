@@ -1,25 +1,31 @@
-body{
+body {
     color: aliceblue;
     background: #303030;
 }
-h1{
+
+h2 {
     text-align: center;
 }
-h2{
-    text-align: center;
-}
-table{
+
+table {
     border: 2px solid black;
     border-collapse: collapse;
     background: rgb(100, 100, 100);
     text-align: center;
 }
-th{
-    background: #292d88;
+
+th {
+    background: #0D6EFD;
 }
-tr{
+
+tr {
     border: 2px solid black;
 }
-td{
-    border:2px solid black;
+
+td {
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #0D6EFD;
 }
