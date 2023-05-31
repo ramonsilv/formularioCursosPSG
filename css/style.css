@@ -2,8 +2,13 @@ body {
     color: aliceblue;
     background: #303030;
 }
-
-h2 {
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
     text-align: center;
 }
 
@@ -27,5 +32,7 @@ td {
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #0D6EFD;
 }
