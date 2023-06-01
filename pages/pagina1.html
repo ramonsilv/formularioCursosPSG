@@ -12,7 +12,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/css/style.css" /><!--link do arquivo style-->
   <script src="/js/script.js"></script><!--link do arquivo script-->
-  <title>Pagina1 | PSG</title>
+  <title>Formulario De Matricula | PSG</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
                 <a class="nav-link active" aria-current="page" href="/pages/pagina1.html">Formulario</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Boletims</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -71,21 +71,37 @@
     </nav>
   </header>
 
-  <main>
+  <main><!--CORPO DO SITE DE FORMULARIO-->
     <div class="container-fluid">
       <div class="row">
         <div class="col">
           <h1 class="">Formulario de Matricula</h1>
-          <div class="col d-flex flex-column justify-content-center align-items-center"><br><br>
-          <input type="text" placeholder="Informe o seu nome"><br>
-          <div>
-          <input type="radio">Masculino<br>
-          <input type="radio">Feminino<br>
-          </div>
-          <input type="date" placeholder="Informe sua idade" /><br>
-          <input type="number" placeholder="Informe sua renda" /><br>
-          <input type="number" placeholder="quantas pessoas moram com você">
-          <button type="button" class="btn btn-primary">Enviar</button>
+          <div class="col d-flex flex-column justify-content-center align-items-center"><br>
+            <input type="text" placeholder="Informe o seu nome"><br>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Masculino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Feminino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Outros
+                </label>
+              </div>
+            </div>
+            <input type="date" placeholder="Informe sua idade" /><br>
+            <input type="number" placeholder="Informe sua renda" /><br>
+            <input type="number" placeholder="quantas pessoas moram com você">
+            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
         </div>
       </div>
