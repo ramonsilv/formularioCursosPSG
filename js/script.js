@@ -23,3 +23,30 @@ function calc() {
       "Preencha os campos acima.";
   }
 }
+
+// PAGINA2
+function calcularmedia(){
+    n1 = parseFloat(document.getElementById('n1').value);
+    n2 = parseFloat(document.getElementById('n2').value);
+    n3 = parseFloat(document.getElementById('n3').value);
+
+    let media = (n1 + n2 + n3) / 3;
+    console.log(media)
+    document.getElementById('resultado').textContent = "Media: " + media.toFixed(2);
+    return media
+}
+
+function calcularpresencas(){
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia1 = parseInt(document.querySelector('input[name = "dia1"]:checked').value)
+    let dia10 = parseInt(document.querySelector('input[name = "dia10"]:checked').value)
+    let dia11 = parseInt(document.querySelector('input[name = "dia11"]:checked').value)
+    let dia12 = parseInt(document.querySelector('input[name = "dia12"]:checked').value)
+    
+}
