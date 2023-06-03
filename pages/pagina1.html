@@ -38,12 +38,12 @@
                 <a class="nav-link active" aria-current="page" href="/pages/pagina1.html">Formulario</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Boletims</a>
+                <a class="nav-link" href="/pages/pagina2.html">Boletims</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Dropdown
+                  SEM DEFNIÇÃO
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -77,6 +77,7 @@
         <div class="col">
           <h1 class="">Formulario de Matricula</h1>
           <div class="col d-flex flex-column justify-content-center align-items-center"><br>
+            
             <input type="text" class="form-control-sm" placeholder="Informe o seu nome"><br>
             <div class="col">
               <div class="form-check">
@@ -98,11 +99,13 @@
                 </label>
               </div>
             </div>
+          <form class="formulario">
             <input type="date" id="idade" class="form-select-sm" placeholder="Informe sua idade" /><br>
-            <input type="number" class="form-control-sm" placeholder="Informe sua renda" /><br>
-            <input type="number" class="form-control-sm" placeholder="Pessoas que moram com você">
-            <button type="button" id="calc()" class="btn btn-primary">Enviar</button>
+            <input type="number" id="renda" class="form-control-sm" placeholder="Informe sua renda" /><br>
+            <input type="number" id="pessoa" class="form-control-sm" placeholder="Pessoas que moram com você"><br>
+            <button type="button" onclick="calc()" class="btn btn-primary">Enviar</button>
             <div id="retorno"></div>
+          </form>
           </div>
         </div>
       </div>
