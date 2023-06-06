@@ -38,6 +38,18 @@ footer {
 }
 
 /* Pagina1 */
+.formul {
+    background: #2159ad;
+    border-radius: 30px;
+    
+}
 .formulario{
     text-align: center;
+    
+}
+
+/* Pagina2 */
+.formulariopg2{
+    text-align: center;
+    background: #2159ad;
 }

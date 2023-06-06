@@ -93,7 +93,7 @@ function calcularPresencas() {
 
 function aprovacao() {
   let media = calcularmedia();
-  sonsole.log(media);
+  console.log(media);
   let presencas = calcularPresencas();
   console.log(presencas);
 
