@@ -39,9 +39,10 @@ footer {
 
 /* Pagina1 */
 .formul {
+    border-radius: 37px;
     background: #2159ad;
-    border-radius: 30px;
-    
+    box-shadow:  5px 5px 10px #0d2445,
+             -5px -5px 10px #358eff;
 }
 .formulario{
     text-align: center;
@@ -51,5 +52,8 @@ footer {
 /* Pagina2 */
 .formulariopg2{
     text-align: center;
+    border-radius: 37px;
     background: #2159ad;
+    box-shadow:  5px 5px 10px #0d2445,
+             -5px -5px 10px #358eff;
 }
