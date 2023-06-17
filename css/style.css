@@ -31,6 +31,9 @@ td {
     border: 2px solid black;
 }
 
+.local{
+    padding: 2%;
+}
 footer {
     display: flex;
     justify-content: space-around;
